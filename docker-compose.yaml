@@ -2,7 +2,7 @@ version: '3'
 
 services:
   ntlmproxy:
-    image: alexxanddr/ntlm-maps:latest
+    image: testa #//alexxanddr/ntlm-maps:latest
     restart: always
     container_name: ntlmproxy
     env_file:

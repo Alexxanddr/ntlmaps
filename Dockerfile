@@ -7,6 +7,6 @@ COPY  ./ ./
 
 EXPOSE 5865
 
-ENTRYPOINT ["sh","-c","/app/start-ntlm-proxy.sh 2>&1"]
+ENTRYPOINT ["sh","/app/start-ntlm-proxy.sh"]
 
 
