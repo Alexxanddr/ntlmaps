@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  ntlmproxy:
+    image: alexxanddr/ntlm-maps:latest
+    restart: always
+    container_name: ntlmproxy
+    env_file:
+     - ./.env
+    #network_mode: "host"
